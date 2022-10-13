@@ -7,12 +7,14 @@ for i=1:3
         U(i, j) = U(i, j) + A(i, j);
     end
 end
+disp(U)
 
 for i=1:3
     for j=1:i
         L(i, j) = L(i, j) + A(i, j);
     end
 end
+disp(L)
 
 for i=1:3
     for j=1:3
@@ -21,3 +23,4 @@ for i=1:3
         end
     end
 end
+disp(D)

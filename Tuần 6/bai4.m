@@ -10,7 +10,7 @@ disp('Ma tran A + B dung lenh for =');
 disp(S);
 disp('Ma tran A + B =');
 disp(A + B);
-if C == S
+if A + B == S
     fprintf('Giong voi ket qua cua Matlab\n');
 else
     fprintf('Khong giong voi ket qua cua Matlab\n');
