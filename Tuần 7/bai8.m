@@ -1,5 +1,5 @@
-x = -3:3;
-y = -3:3;
+x = linspace(-3,3);
+y = linspace(-3,3);
 [X, Y] = meshgrid(x, y);
 f1 = exp(-x.^2);
 f2 = exp(-(X.^2 + Y.^2));

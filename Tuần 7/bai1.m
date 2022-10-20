@@ -1,4 +1,4 @@
-x = 0:4;
+x = linspace(0,4);
 subplot(2,2,1);
 plot(x, x);
 title('Do thi y = x');
