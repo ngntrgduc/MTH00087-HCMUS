@@ -1,6 +1,6 @@
-t = linspace(0, 2*pi);
-x = 5*cos(t);
-y = 5*sin(t);
+t = linspace(0, 2 * pi);
+x = 5 * cos(t);
+y = 5 * sin(t);
 plot(x, y);
 title('Bai 4');
 xlabel('x');

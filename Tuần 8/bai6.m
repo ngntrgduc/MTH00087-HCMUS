@@ -1,8 +1,8 @@
 u = linspace(0, 2 * pi);
 v = linspace(-pi/2, pi/2);
 [U, V] = meshgrid(u, v);
-x = cos(V) .* cos(U);
-y = cos(V) .* sin(U);
+x = cos(V).*cos(U);
+y = cos(V).*sin(U);
 z = sin(V);
 mesh(x, y, z);
 title('Bai 6');

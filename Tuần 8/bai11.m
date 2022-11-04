@@ -16,4 +16,4 @@ title('Bai 11');
 xlabel('X');
 ylabel('Y');
 zlabel('Z');
-view(-60, 40);
+view(-55, 40);
