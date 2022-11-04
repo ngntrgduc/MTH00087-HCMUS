@@ -1,5 +1,5 @@
 n = input('Nhap n: ');
-result= 0;
+result = 0;
 k = 1;
 while (k <= n)
     result = result + 1/k;
