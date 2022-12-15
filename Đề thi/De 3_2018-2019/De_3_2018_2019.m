@@ -17,11 +17,11 @@ end
 fprintf('Tong tinh theo WHILE: %d\n', S2);
 
 fprintf('b)');
-S = 1/(1*(1 + 2));
+S = 1 / (1 * (1+2));
 i = 1;
 while (S < 1/2)
     i = i + 1;
-    S = S + 1/(i*(i + 2));
+    S = S + 1 / (i * (i+2));
 end
 fprintf('Gia tri n nho nhat sao cho tong >= 1/2: %d\n', i);
 
@@ -54,11 +54,11 @@ fprintf('Dien tich cua hinh chu nhat = %g\n', S);
 disp('Bai 3:');
 figure(1);
 x = linspace(5, 10);
-y = exp(-x) ./ (x + 1);
+y = exp(-x) ./ (x+1);
 plot(x, y, '-.r', 'LineWidth', 2);
 xlabel('x');
 ylabel('y');
-title('Cau a: Ham so f(x) = $\frac{e^{-x}}{x+1}$', 'Interpreter', 'latex');
+title('Cau a: Ham so f(x) = e^{-x}/(x+1)');
 legend('e^{-x}/(x+1)');
 
 % Cau b
@@ -110,16 +110,16 @@ title('Ham so theo meshz');
 
 subplot(3, 2, 5);
 surf(x, y, z);
-xlabel('Truc x');
-ylabel('Truc y');
-zlabel('Truc z');
+xlabel('x');
+ylabel('y');
+zlabel('z');
 title('Ham so theo surf');
 
 subplot(3, 2, 6);
 surfc(x, y, z);
-xlabel('Truc x');
-ylabel('Truc y');
-zlabel('Truc z');
+xlabel('x');
+ylabel('y');
+zlabel('z');
 title('Ham so theo surfc');
 
 
@@ -136,7 +136,7 @@ while (abs(a - b)/abs(a) > 10^-4)
     i = i + 1;
     b = int_mid(-5, 5, i);
 end
-fprintf('Sai so so voi ham int voi n = 10: %f\n', abs(a - a1)/abs(a));
-fprintf('Sai so so voi ham int voi n = 50: %f\n', abs(a - a2)/abs(a));
-fprintf('Sai so so voi ham int voi n = 100: %f\n', abs(a - a3)/abs(a));
+fprintf('Sai so so voi ham int voi n = 10: %f\n', abs(a-a1) / abs(a));
+fprintf('Sai so so voi ham int voi n = 50: %f\n', abs(a-a2) / abs(a));
+fprintf('Sai so so voi ham int voi n = 100: %f\n', abs(a-a3) / abs(a));
 fprintf('Sai so so voi ham int la 10^-4 khi n = %d\n', i);
