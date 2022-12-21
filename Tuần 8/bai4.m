@@ -1,4 +1,4 @@
-t = linspace(0, 2 * pi);
+t = linspace(0, 2*pi);
 x = 5 * cos(t);
 y = 5 * sin(t);
 plot(x, y);

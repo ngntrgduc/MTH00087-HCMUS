@@ -1,4 +1,4 @@
-u = linspace(0, 2 * pi, 200);
+u = linspace(0, 2*pi, 200);
 v = linspace(-5, 5, 200);
 [U, V] = meshgrid(u, v);
 x = cos(U);

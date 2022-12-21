@@ -1,5 +1,5 @@
-u = linspace(0, 2 * pi);
-v = linspace(0, 2 * pi);
+u = linspace(0, 2*pi);
+v = linspace(0, 2*pi);
 [U, V] = meshgrid(u, v);
 x = (1 + 0.5 * cos(V)).*cos(U);
 y = (1 + 0.5 * cos(V)).*sin(U);

@@ -1,4 +1,4 @@
-t = linspace(0, 6 * pi);
+t = linspace(0, 6*pi);
 x = sin(t);
 y = cos(t);
 z = t;
