@@ -18,7 +18,13 @@ close all
 % vòng lặp while: while expression ... end
 % câu lệnh switch-case: switch variable case ... otherwise ... end
 
-% Ma trận (Dấu ; kết thúc 1 dòng, dấu , hoặc khoảng trắng ngăn cách phần tử)
+% Vector
+% length(v): số phần tử của vector v
+% max(v): phần tử lớn nhất của vector v
+% min(v): phần tử nhỏ nhất của vector v
+% Nếu v là ma trận, thì max(v)/min(v) trả về vector hàng chứa phần tử lớn nhất/nhỏ nhất của mỗi cột của ma trận v
+
+% Ma trận (Dấu ; kết thúc 1 dòng (hàng), dấu ',' hoặc khoảng trắng ngăn cách phần tử)
 % A = [1 2 3; 4 5 6];
 % Chuyển vị ma trận: A'
 % Đường chéo ma trận: diag(A)
