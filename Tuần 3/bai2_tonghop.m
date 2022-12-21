@@ -6,23 +6,8 @@ tongntle = 0;
 tongchinhphuong = 0;
 
 for i=1:length(v)
-    j = 2;
-    nguyento = 1;
-    %kiem tra nguyen to
-    if v(i) == 1
-        nguyento = 0;
-    elseif v(i) == 2
-        nguyento = 1;
-    else
-        while (j < v(i))
-           if mod(v(i), j) == 0
-               nguyento = 0;
-               j = v(i);
-           end
-           j = j + 1;
-        end
-    end
-    if nguyento == 1
+    % kiem tra nguyen to
+    if isprime(v(i))
         if mod(v(i), 2) == 0
             tongntchan = tongntchan + v(i);
         else
@@ -36,7 +21,7 @@ for i=1:length(v)
             tongle = tongle + v(i);
         end
     end
-    %kiem tra chinh phuong
+    % kiem tra chinh phuong
     if floor((sqrt(v(i))))*floor((sqrt(v(i)))) == v(i)
         tongchinhphuong = tongchinhphuong + v(i);
     end
