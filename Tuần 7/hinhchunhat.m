@@ -1,5 +1,4 @@
 function I = hinhchunhat(A, d, r)
-    
     B = [A(1), A(2) + d];
     D = [A(1) - r, A(2)];
     C = [D(1), B(2)];
@@ -13,3 +12,4 @@ function I = hinhchunhat(A, d, r)
     text(D(1) - 0.2, D(2) - 0.2, 'D');
     axis equal;
     axis ([D(1) - 1, A(1) + 1, A(2) - 1, B(2) + 1]);
+end

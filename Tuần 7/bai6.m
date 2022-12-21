@@ -51,7 +51,6 @@ ylabel('y');
 legend('ln(x)');
 
 subplot(2,2,3);
-% plot(x, sin(x));
 ezplot('sin(x)');
 title('Do thi y = sin(x)');
 xlabel('x');
@@ -59,7 +58,6 @@ ylabel('y');
 legend('sin(x)');
 
 subplot(2,2,4);
-% plot(x, cos(x));
 ezplot('cos(x)');
 title('Do thi y = cos(x)');
 xlabel('x');
