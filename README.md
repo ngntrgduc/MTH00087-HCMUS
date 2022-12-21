@@ -22,5 +22,7 @@ Thực hành phần mềm tính toán (Computational  Softwares  Laboratory)
 
 # Resources
 - Line properties (các tham số khi plot như `Color`, `Marker`, `LineStyle`, `Width`, ...): https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html
+- Lệnh `Line` (vẽ đường hoặc hình học 2D): https://www.mathworks.com/help/matlab/ref/line.html
 - Lệnh `text` (dùng để ghi chú trên đồ thị): https://www.mathworks.com/help/matlab/ref/text.html 
 - Lệnh trục toạ độ `axis`: https://www.mathworks.com/help/matlab/ref/axis.html
+- Lệnh `subs`: https://www.mathworks.com/help/symbolic/subs.html
