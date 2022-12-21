@@ -1,7 +1,7 @@
 syms x k;
 
 disp('Cau a:');
-f = 1 / (1 + exp(1 / x));
+f = 1 / (1 + exp(1/x));
 figure(1);
 ezplot(f);
 X = 0;

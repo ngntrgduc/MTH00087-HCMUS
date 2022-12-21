@@ -25,7 +25,7 @@ end
 disp('Chuoi khong hoi tu');
 
 disp('Cau c:');
-xn = 1 / 15^1.5 - 1 / (k + 1)^1.5;
+xn = 1 / 15^1.5 - 1 / (k+1) ^ 1.5;
 x = linspace(-5, 5);
 figure(3);
 for i = 1 : 20

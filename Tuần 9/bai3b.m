@@ -1,4 +1,4 @@
-%Cau b)
+% Cau b)
 t1 = linspace(-20, 20, 500);
 x2 = linspace(-100, 100);
 x1 = 5 * (cos(t1) + t1.* sin(t1));

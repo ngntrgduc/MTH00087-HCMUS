@@ -7,7 +7,7 @@ end;
 disp(A);
 B = A;
 
-%Cau b)
+% Cau b)
 disp('Cau b)');
 I = eye(size(A, 1));
 for i = 1 : size(A, 1)
