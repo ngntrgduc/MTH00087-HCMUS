@@ -2,8 +2,8 @@ clc
 clear all
 close all
 
-% input(prompt): nhập số
-% input(prompt,'s'): nhập chuỗi
+% input('prompt'): nhập số, muốn nhập chuỗi thì chuỗi nhập vào phải nằm trong ''
+% hoặc dùng input('prompt','s') để nhập chuỗi
 
 % câu lệnh if else: if - elseif - else - end
 % phép toán: +, -, *, /, ^, exp(), log()
