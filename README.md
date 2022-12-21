@@ -26,3 +26,7 @@ Thực hành phần mềm tính toán (Computational  Softwares  Laboratory)
 - Lệnh `text` (dùng để ghi chú trên đồ thị): https://www.mathworks.com/help/matlab/ref/text.html 
 - Lệnh trục toạ độ `axis`: https://www.mathworks.com/help/matlab/ref/axis.html
 - Lệnh `subs`: https://www.mathworks.com/help/symbolic/subs.html
+
+# Miễn trừ trách nhiệm (Disclaimer)
+- Code có thể sai, không cam kết về kết quả. Bạn sử dụng thì bạn gánh chịu mọi rủi ro.
+- Trong mọi trường hợp, mình sẽ không chịu trách nhiệm cho bất kỳ tổn thất hoặc thiệt hại nào.
